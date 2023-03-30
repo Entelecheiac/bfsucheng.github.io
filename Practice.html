@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实战演练</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container3">
+            <h1><b>实战演练<br>Time for Practice!</b></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html"><b>首页</b></a>
+                    </li>
+                    <li>
+                        <a href="Difficulties of comforting others.html"><b>安慰他人的难点</b></a>
+                    </li>
+                    <li>
+                        <a href="Practice.html"><b>实战演练</b></a>
+                    </li>
+                    <li>
+                        <a href="Effective comfort.html"><b>有效安慰指南</b></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+
+            <h2><b>你是否具备了安慰他人的能力呢？<br>Now Do You Know How to Comfort Your Friends?</b></h2>
+            <div>
+                <h3>场景一<br>Setting 1</h3>
+                <div class="image-container4">
+                    <img src="images/image 14.jpg" alt="失恋">
+                </div>
+                <div class="paragraph-container">
+                    <p>此时你会说：</p>
+                    <p>A: 时间长了就会好的。</p>
+                    <p>B: 你得赶紧把前男友vx拉黑，然后多聚会多认识些新人，别一个人闷在家里，多做些运动对你也有好处……</p>
+                    <p>C: 天哪，这对你来说一定很痛苦吧，如果是我我会崩溃的吧，想说什么都可以告诉我，我一直都在哦。</p>
+                    <div class="image-container5">
+                        <button onclick="showing()">点击此处查看答案</button>
+                        <img src="images/image 14.1.jpg" id="test">
+                        <script>
+                            function showing() {
+                                document.getElementById('test').style.display = "block"
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>场景二<br>Setting 2</h3>
+                <div class="image-container4">
+                    <img src="images/image 15.jpg" alt="工作压力">
+                </div>
+                <div class="paragraph-container">
+                    <p>这时候你会说：</p>
+                    <p>A: 加油！打工人！</p>
+                    <p>B: 这也太苦了吧，说吧，想喝酒想聊天想干嘛，我都陪你。</p>
+                    <p>C: 我更惨！我这个礼拜天天加班到十点，文章一直通不过，被来回蹂躏……</p>
+                    <div class="image-container5">
+
+                        <button id="show-image1-button">点击此处查看答案</button>
+                        <img id="test1" src="images/image 15.1.jpg">
+                        <script>
+                            const showImage1Button = document.getElementById("show-image1-button");
+                            const myImage1 = document.getElementById("test1");
+                            showImage1Button.addEventListener("click", () => {
+                                myImage1.style.display = "block";
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+
+            <h3>场景三<br>Setting 3</h3>
+            <div class="image-container4">
+                <img src="images/image 16.jpg" alt="家中变故">
+            </div>
+            <div class="paragraph-container">
+                <p>得知消息的你会说：</p>
+                <p>A: 什么都不说，伸出手抱抱对方。</p>
+                <p>B: 你说的我知道，我明白的。</p>
+                <p>C: 具体是因为什么？严重吗？你爸妈咋说？你们打算怎么办？</p>
+                <div class="image-container5">
+                    <button id="show-image-button">点击此处查看答案</button>
+                    <img id="test2" src="images/image 16.1.jpg">
+                    <script>
+                        const showImageButton = document.getElementById("show-image-button");
+                        const myImage = document.getElementById("test2");
+                        showImageButton.addEventListener("click", () => {
+                            myImage.style.display = "block";
+                        });
+                    </script>
+                </div>
+            </div>
+
+
+        </div>
+
+        </div>
+        <div class="paragraph-container">
+            <p>其实，你的安慰对朋友来说真的很重要重要。有时候，也需要试着放下担心和恐惧，为你在乎的人提供帮助呢。</p>
+        </div>
+    </main>
+</body>
+
+</html>

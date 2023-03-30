@@ -1,0 +1,190 @@
+/* 设置全局样式 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    background-color: #E9DEE2;
+    line-height: 2em;
+}
+
+img {
+    justify-content: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h1 {
+    color: #888797;
+    font-size: 32px;
+    padding: 0;
+    opacity: 1;
+}
+
+h2 {
+    color: #888797;
+    font-size: 20px;
+    padding: 0;
+    opacity: 1;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+h3 {
+    color: #888797;
+    font-size: 18px;
+    padding: 0;
+    opacity: 1;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+/*导航栏样式*/
+nav {
+    background-color: rgb(255, 255, 255, 0.5);
+    overflow: hidden;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* 使用 Flexbox 排列列表项 */
+    justify-content: center;
+
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #888797;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #888797;
+    color: rgb(255, 255, 255);
+}
+
+/*主体样式设置*/
+main {
+    margin: 90px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+p {
+    text-indent: 2em;
+    color: #888797;
+    font-size: 14px;
+}
+
+
+
+/*首页设置*/
+/*首页标题样式*/
+.header-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    background-image: url("images/image\ 0.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+}
+
+/*首页图片设置*/
+.image-container img {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+}
+
+
+/*第二个网页*/
+/*第二个页面标题设置*/
+.header-container2 {
+    background-color: rgba(255, 255, 255, 0.7);
+    background-image: url("images/image\ 01.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+}
+
+/*第二个页面图片设置*/
+.image-container2 img {
+    display: inline-block;
+    width: 300px;
+    height: 330px;
+}
+
+.image-container3 img {
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+}
+
+/*第三个网页*/
+/*第三个页面标题设置*/
+.header-container3 {
+    background-color: rgba(255, 255, 255, 0.7);
+    background-image: url("images/image\ 02.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+}
+
+/*第三个页面图片设置*/
+.image-container4 img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 350px;
+}
+
+.image-container5 img {
+    display: none;
+    margin: 0 auto;
+    width: 300px;
+    height: 420px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: #E9DEE2;
+    color: #888797;
+}
+
+button:hover {
+    background-color: #888797;
+    color: #E9DEE2;
+}
+
+/*第四个网页*/
+/*第四个页面标题设置*/
+.header-container4 {
+    background-color: rgba(255, 255, 255, 0.7);
+    background-image: url("images/image\ 03.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.image-container6 img {
+    display: block;
+    margin: 0 auto;
+}
