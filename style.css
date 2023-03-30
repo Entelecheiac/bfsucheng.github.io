@@ -6,6 +6,13 @@ body {
     line-height: 2em;
 }
 
+@media (max-width: 500px) {
+    body {
+        transform: scale(0.8);
+        transform-origin: 0 0;
+    }
+}
+
 img {
     justify-content: center;
 }
